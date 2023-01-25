@@ -1,0 +1,30 @@
+CREATE TABLE `zakonczone` (
+    `id` int(11) NOT NULL,
+    `imie` text NOT NULL,
+    `nazwisko` text NOT NULL,
+    `data_p` text NOT NULL,
+    `data_w` text NOT NULL,
+    `sprzet` text NOT NULL,
+    `status` text NOT NULL,
+    `usluga_k` text NOT NULL,
+    `opis` text NOT NULL
+    );
+
+CREATE TABLE `aktywne` (
+    `id` int(11) NOT NULL,
+    `imie` text NOT NULL,
+    `nazwisko` text NOT NULL,
+    `data_p` text NOT NULL,
+    `data_w` text NOT NULL,
+    `sprzet` text NOT NULL,
+    `status` text NOT NULL,
+    `usluga_k` text NOT NULL,
+    `opis` text NOT NULL
+    );
+
+ALTER TABLE `aktywne`
+  ADD PRIMARY KEY (`ID`),
+  ADD UNIQUE KEY `ID` (`ID`);
+
+ALTER TABLE `aktywne`
+  MODIFY `ID` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;

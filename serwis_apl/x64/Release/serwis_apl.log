@@ -1,0 +1,8 @@
+﻿  funkcje.cpp
+  Trwa generowanie kodu
+C:\Users\matid\source\repos\serwis_apl\serwis_apl\funkcje.cpp(188): warning C4715: "PobierzDateWydania”: niewszystkie ścieżki kodu zwracają wartość
+  90 of 214 functions (42.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    26 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  serwis_apl.vcxproj -> C:\Users\matid\source\repos\serwis_apl\x64\Release\serwis_apl.exe
